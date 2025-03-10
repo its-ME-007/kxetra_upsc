@@ -7,7 +7,7 @@ model = Blueprint("model", __name__)
 
 @model.route('/generate')
 def generate():
-    api_key = "AIzaSyAXIdfy2HWpXvwMPnJyhfvsj7CfbuYhcnQ" #Remember to use environment variables for api keys.
+    api_key = "AIzaSyAXIdf2HWpXwMPnJyhfvsj7CfbuYhcn" #Remember to use environment variables for api keys.
     client = genai.Client(api_key=api_key)
 
     files = [
